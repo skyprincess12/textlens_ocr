@@ -130,7 +130,7 @@ html, body, [data-testid="stAppViewContainer"] {
     text-align: center;
     padding: 6px 14px;
     border-radius: 7px;
-    font-size: 0.82rem;
+    font-size: 0.75rem;
     font-weight: 500;
     cursor: pointer;
     color: var(--muted) !important;
