@@ -128,7 +128,9 @@ html, body, [data-testid="stAppViewContainer"] {
 [data-testid="stRadio"] label {
     flex: 1;
     text-align: center;
-    padding: 6px 14px;
+    padding: 6px 8px;
+    white-space: nowrap;
+    overflow: hidden;
     border-radius: 7px;
     font-size: 0.75rem;
     font-weight: 500;
