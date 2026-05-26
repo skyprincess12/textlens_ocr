@@ -357,7 +357,7 @@ def get_available_langs() -> list[str]:
 
 
 def load_pdf_pages(file_bytes: bytes) -> list[Image.Image]:
-    return pdf2image.convert_from_bytes(file_bytes, dpi=200, poppler_path=r"C:\poppler-26.02.0\Library\bin")
+    return pdf2image.convert_from_bytes(file_bytes, dpi=200)
 
 
 # ── Session state ─────────────────────────────────────────────────────────────
