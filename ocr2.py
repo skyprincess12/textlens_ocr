@@ -375,7 +375,7 @@ if "output_fmt" not in st.session_state:
 st.markdown("""
 <div class="hero">
   <p class="hero-title">Text<em>Lens</em></p>
-  <p class="hero-sub">OCR · Images &amp; PDFs · Offline &amp; Free</p>
+  <p class="hero-sub">OCR · Images &amp; PDFs · Online &amp; Free</p>
 </div>
 """, unsafe_allow_html=True)
 
