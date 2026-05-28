@@ -135,14 +135,21 @@ html, body, [data-testid="stAppViewContainer"] {
     font-size: 0.75rem;
     font-weight: 500;
     cursor: pointer;
-    color: var(--muted) !important;
+    color: #FF9900 !important;
     transition: all 0.15s;
 }
 [data-testid="stRadio"] [data-checked="true"] {
     background: var(--accent);
-    color: #0f0f0f !important;
+    color: #FF9900 !important;
 }
-
+[data-testid="stRadio"] label span {
+    color: #FF9900 !important;
+}
+[data-testid="stRadio"] p,
+[data-testid="stRadio"] span,
+[data-testid="stRadio"] div {
+    color: #FFF9900 !important;
+}
 /* ── Text output area ── */
 .output-box {
     background: var(--surface);
