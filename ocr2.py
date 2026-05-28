@@ -148,7 +148,7 @@ html, body, [data-testid="stAppViewContainer"] {
 [data-testid="stRadio"] p,
 [data-testid="stRadio"] span,
 [data-testid="stRadio"] div {
-    color: #FFF9900 !important;
+    color: #FF9900 !important;
 }
 /* ── Text output area ── */
 .output-box {
